@@ -1,8 +1,8 @@
+.main_list {
+    width: 90%;
+}
 .r_list {
     margin: 0 auto;
-    width: 500px;
+    width: 60%;
     border: 1px solid;
-}
-.list{
-    margin: 0 auto;
 }

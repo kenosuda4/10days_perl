@@ -2,34 +2,42 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <!--どちらかを使用してjを使う-->
         <link rel="stylesheet" href="repo_list.css">
+        <script>
+            alert('日報管理システム');
+        </script>
+        <!--<script src="app.js"></script>-->
 
     </head>
     <body>
-        <h2>日報管理</h2>
-        <div>検索</div>
+        <h2>日報投稿機能</h2>
+        <div>ユーザー名</div>
         <div><a href="repoto_new.html">新規投稿</a></div>
-        <table class="r_list">
-            <thead>
-                <tr class="list"> 
-                    <th>
-                        名前
-                    </th>
-                    <th>
-                        日付
-                    </th>
-                    <th>
-                        詳細
-                    </th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="list">
-                    <td align="center">cgiで置換</td>
-                    <td align="center">cgiで置換</td>
-                    <td align="center"><a href="repoto_edit.html">詳細　cgiで置換</a></td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="main_list">    
+            <table class="r_list">
+                <thead>
+                    <tr class="list"> 
+                        <th>
+                            投稿者
+                        </th>
+                        <th>
+                            登校日
+                        </th>
+                        <th>
+                            詳細
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="list">
+                        <td align="center">cgi置換</td>
+                        <td align="center">cgi置換</td>
+                        <td align="center"><a href="repoto_edit.html">詳細</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
     </body>
 </html>
